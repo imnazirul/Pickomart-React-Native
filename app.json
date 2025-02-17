@@ -4,7 +4,7 @@
     "slug": "pickomart",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/icon.jpg",
+    "icon": "",
     "scheme": "com.apk.pickomart",
     "userInterfaceStyle": "automatic",
     "backgroundColor": "#161622",
@@ -24,15 +24,20 @@
       "output": "static",
       "favicon": "./assets/images/favicon.png"
     },
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#161622"
+    },
     "plugins": [
       "expo-router",
       [
         "expo-splash-screen",
         {
           "image": "./assets/images/splash.png",
-          "imageWidth": "90%",
+          "imageWidth": "100%",
           "resizeMode": "contain",
-          "backgroundColor": "#161622"
+          "backgroundColor": "#ffffff"
         }
       ]
     ],
@@ -46,6 +51,12 @@
       "eas": {
         "projectId": "ef646966-eecc-4877-8062-d36a9955ae64"
       }
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/ef646966-eecc-4877-8062-d36a9955ae64"
     }
   }
 }
