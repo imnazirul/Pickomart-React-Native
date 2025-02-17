@@ -4,7 +4,7 @@
     "slug": "pickomart",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "",
+    "icon": "./assets/picko.png",
     "scheme": "com.apk.pickomart",
     "userInterfaceStyle": "automatic",
     "backgroundColor": "#161622",
@@ -14,7 +14,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/icon.jpg",
+        "foregroundImage": "./assets/picko.png",
         "backgroundColor": "#161622"
       },
       "package": "com.nazirul001.pickomart"
