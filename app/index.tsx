@@ -5,7 +5,7 @@ import { WebView } from 'react-native-webview';
 
 const index = () => {
   return (
-    <SafeAreaView style={{flex:1}}>
+    <SafeAreaView style={{flex:1, backgroundColor:"#161622"}}>
       <WebView
       style={styles.container}
       source={{ uri: 'https://pickomart.pythonanywhere.com/' }}

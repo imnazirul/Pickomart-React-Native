@@ -1,12 +1,13 @@
 {
   "expo": {
-    "name": "picomart",
-    "slug": "picomart",
+    "name": "pickomart",
+    "slug": "pickomart",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.jpg",
-    "scheme": "myapp",
+    "scheme": "com.apk.pickomart",
     "userInterfaceStyle": "automatic",
+    "backgroundColor": "#161622",
     "newArchEnabled": true,
     "ios": {
       "supportsTablet": true
@@ -14,7 +15,7 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/splash.png",
-        "backgroundColor": "#000000"
+        "backgroundColor": "#161622"
       }
     },
     "web": {
@@ -28,9 +29,9 @@
         "expo-splash-screen",
         {
           "image": "./assets/images/splash.png",
-          "imageWidth": 200,
+          "imageWidth": "90%",
           "resizeMode": "contain",
-          "backgroundColor": "#000000"
+          "backgroundColor": "#161622"
         }
       ]
     ],
