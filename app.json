@@ -14,7 +14,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/splash.png",
+        "foregroundImage": "./assets/images/icon.jpg",
         "backgroundColor": "#161622"
       },
       "package": "com.nazirul001.pickomart"
