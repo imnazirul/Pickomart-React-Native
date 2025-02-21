@@ -12,9 +12,9 @@ const index = () => {
     const backAction = () => {
       if (canGoBack && webViewRef.current) {
         webViewRef.current.goBack();
-        return true; // Prevents app from closing
+        return true;
       }
-      return false; // Allows app to close if no back history
+      return false; 
     };
 
     BackHandler.addEventListener('hardwareBackPress', backAction);
